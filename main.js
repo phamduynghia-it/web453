@@ -26,7 +26,7 @@ let currentIndex = 0;
 let particles = [];
 let mode = "gather";
 let lastSwitchTime = Date.now();
-const gatherDuration = 5000; // 2s
+const gatherDuration = 7000; // 2s
 const explodeDuration = 1000; // 0.8s
 
 function getFontSize() {
